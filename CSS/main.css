@@ -1,0 +1,327 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #333333;
+    color: #9f9f9f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main.lim{
+    margin: auto;
+    width: 65%;
+}
+
+.header1{
+    width: 100%;
+    height: 80px;
+    background-color: #111111;
+}
+
+.logo{
+    padding-top: 28px;
+    width: 25px;
+    height: 25px;
+}
+
+.redes-sociais ul li{
+    float: right;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.redes-sociais{
+    width: 49%;
+    float: right;
+}
+
+.logo-ra{
+    width: 50%;
+    float: left;
+}
+
+#ralogo{
+    padding: 15px;
+    width: 82px;
+    height: 50px;
+}
+
+
+
+
+.h2{
+    
+    width: 100%;
+    height: 110px;
+    margin: 0px;
+    border-bottom: 5px solid #cccccc;
+    background-color: #808080;
+    border-top: 5px solid #333333;
+    
+    font-size: 25px;
+}
+
+
+
+
+.menu2 ul li{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+.menu2 ul li a{
+    text-decoration: none;
+    color: #cccccc;
+}
+.menu2 ul li :hover{
+    padding: 0px;
+    padding-bottom: 42px;
+    border-bottom: 5px solid #00ffff;
+}
+
+.menu2 ul li a:hover{
+    color: rgb(0, 255, 255);
+}
+
+
+
+div#home{
+    margin: 0 auto;
+    background-color: #333333;
+    overflow-x: hidden;
+}
+
+div#sobre{
+    font-size: 40px;
+    text-align: justify;
+    margin-bottom: 20%;
+
+    
+}
+
+
+
+#botoes ul li{
+    
+    height: 8%;
+    width: 40%;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    background-color: #303030;
+    padding: 0;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 5px 5px;
+    border-radius: 20px;
+    
+    
+}
+
+#botoes ul li :hover{
+    color:#c800c8;
+}
+
+#botoes ul li a{
+    color: #00c8c8;
+    font-size: 25px;
+    word-break: keep-all;
+    align-self: center;
+    text-decoration: none;
+}
+#botoes ul li a p{
+    text-align: center;
+}
+
+hr{
+    margin: 0px;
+    height: 5px;
+    color-adjust: #00000000;
+    border: 0px;
+}
+
+
+
+
+div#new{
+    background-image: linear-gradient(45deg, #00c8c8, #c800c8);
+}
+
+div#internal{
+    background-color:#333333;
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+div#using{
+    background-image: linear-gradient(-45deg, #c800c8, #00c8c8);
+}
+
+.howtouse{
+    color: #333333;
+    font-size: 35px;
+    text-align: justify;
+}
+
+#cttig{
+    color: white;
+    text-decoration: none;
+}
+
+#cttig:hover{
+    color: #00c8c8;
+}
+
+ul.contato{
+    
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    width: 30%;
+    float: right;
+}
+
+ul.projeto{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    width: 30%;
+    float: right;
+    
+}
+
+.titrdp{ /*títulos presentes no rodapé*/
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+
+.projeto li{
+    padding-top: 10px;
+}
+
+.contato li{
+    padding-top: 10px;
+}
+
+ .projeto li a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.contato li a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.rodape{
+   /* height: 200px;*/
+   width: 100%;
+}
+
+#lasttxt{
+    font-size: 0.8em;
+    height: 48px; 
+    color: #ffffff;
+}
+
+#linkup{
+    font-size: 20px; 
+    color: #ffffff; 
+    text-decoration: none;
+    align-self: center;
+    background-color: #202020;
+}
+
+
+p.txt{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+div.bg-blue-pink{
+    background-image: linear-gradient(45deg, #c800c8, #00c8c8);
+}
+
+
+/* Em telas menores que [1k]*/
+@media screen and (max-width:1000px){
+    main.lim{
+        width: 90%;
+        margin:0 auto;
+    }
+    .menu2 ul li{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .menu2 ul li a{
+        padding-top: 2px;
+        font-size: 0.5em;
+    }
+
+    .h2{
+        height: 40px;
+    }
+
+    ul{
+        margin: 0px;
+    }
+
+    div#sobre{
+        font-size: 18px;
+    }
+
+    #botoes ul li a{
+        font-size: 12px;
+    }
+
+    h1{
+        padding-top: 15px;
+    }
+
+    h1.title{
+        font-size: 25px;
+    }
+
+    .howtouse{
+        font-size: 18px;
+    }
+
+    #internal{
+        height: 400px;
+    }
+
+    .projeto li a{
+        font-size: 10px;
+    }
+    
+    .contato li a{
+        font-size: 10px;
+    }
+
+    .titrdp{
+        font-size: 10px; /*títulos presentes no rodapé*/
+    }
+
+    #lasttxt{
+        text-align: center;
+    }
+
+    .rodape{
+        width: 90%;
+    }
+
+}
