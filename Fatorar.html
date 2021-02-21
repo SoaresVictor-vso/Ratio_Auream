@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="shortcut icon" href="IMG/logowhitesolid.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo de fatoração</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/common.css">
+</head>
+
+
+
+<body>
+    <header id="up" class="header1"> <!-- Logo e Redes Sociais-->
+        <main class="lim"> <!-- limita a largura a 65% em dispositivos com mais de 1000 pixels-->
+                <div class="logo-ra"> <!--logo RatioAuream-->
+                    <a href="index.html"><img id="ralogo"src="IMG/logowhiteOpt.png" alt=""></a>
+                </div>
+                <div class="redes-sociais">
+                    <ul style="margin: 0 auto;">
+                        <li>
+                            <a href="https://instagram.com/soares_victor_479" target="_blank">
+                                <img class="logo" src="IMG/Instagram100i.png", target="_blank" alt="Ir para Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SoaresVictor-vso/" target="_blank">
+                                <img class="logo" src="IMG/GitHub100i.png" alt="Ir para GitHub">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </main>
+    </header>
+
+    <div class="bg-blue-pink">
+        <hr>
+        <main class="lim">
+            <div class="internal">
+                <a href="#algoritmo"><h4>Ir direto para o algoritmo</h4></a>
+
+                
+                <h1 style="margin: 5px;">Fatoração</h1>
+                <h2>Resumo</h2>
+                <p>Cada número inteiro pode ser escrito como a multiplicação de números primos(fatores). Para todo <strong>n</strong> inteiro existe uma única forma de escrevê-lo fatorado.</p>
+                <p>As Aplicações para a fatoração são inúmeras: desde encontrar maior divisor comum (MDC) a facilitar nos cálculos de raizes, portanto este é o primeiro algoritmo criado para este projeto, tendo em vista as possibilidades que ele abre.</p>
+
+                
+                
+                <h2 style="color: #c800c8;">Atenção!</h2>
+                <p>Recomendamos fortemente que você não utilize esta ferramenta como forma de obter respostas de atividades. Use-a apenas como correção para exercícios ou em atividades não acadêmicas, já que resolver por si mesmo os exercícios é fundamental para a memorização do conteúdo.</p>
+
+                <h2 id="algoritmo"> Algoritmo</h2>
+
+                <div>
+                    <p class="center">Insira aqui o valor a ser fatorado:</p> 
+                    <div>
+                        <input class="conf1" id="patinho" type="number"> 
+                    </div>
+                    <p class="center" style="padding-top: 10px;"><br><small>apenas números inteiros</small> </p>
+                    <input id="calc" class="conf1" type="button" value="Calcular" >
+
+                    
+                    <p style="padding-top: 30px;" class="center" id=resultado> res</p>
+                    <p class="center" id="desenv" > ...</p>
+                </div>
+                <p style="font-size: 10px;"> SoaresVictor-vso, Feb 21 - 2021 <br> Em caso de erro por favor entre em contato conosco. <br> números muito grandes (geralmente com mais de 10 dígitos) podem demorar para serem calculados e o navegador poderá exibir uma pop-up dizendo que o site parou. <br> Todos os códigos deste site se encontram em um repositório no GitHub.</p>
+            </div>
+            
+            
+            <hr>
+
+    
+        </main>
+    </div>
+    
+
+    <footer><!-- Rodapé-->
+        <main class="lim">
+            <div class="rodape"><!-- Links para contato e relacionados ao projeto-->
+                <div id="holderlinksrp">
+                    <ul class="contato" style="list-style-type: none;">
+                        <li class="titrdp">Contato</li>
+                        <li><a target="_blank" href="https://instagram.com/soares_victor_479">Instagram</a></li>
+                        <li><a target="_blank" href="https://github.com/SoaresVictor-vso/">GitHub</a></li>
+                        <li><a target="_blank" href="mailto:soaresvictor479@gmail.com?subject= RatioAuream">Email</a></li>
+                    </ul>
+                    <ul class="projeto" style="list-style-type: none;">
+                        <li class="titrdp"><strong>Projeto</strong></li>
+                        <li><a target="_blank" href="https://github.com/SoaresVictor-vso/RatioAuream">repositório</a></li>
+                        <li><a target="_blank" href="OutOfSite/LICENSE">licença</a></li>
+                        <li><a target="_blank" href="Desenvolvedor.html">sobre o desenvolvedor</a></li>
+                        <li><a target="_blank" href="calculadoras.html">lista de calculadoras</a></li>
+                    </ul>
+                </div>
+                    
+                
+                
+            </div>
+        </main>
+
+        <div> <!--texto inferior e link para topo da página-->
+            <main style="padding-top: 180px;"class="lim">
+                <div id="lasttxt">
+                    <p style="float: right;">Obrigado por usar este site! Se deseja colaborar com ele, sabendo ou não programar, você pode entrar em contato!</p>
+    
+                    <a id="linkup" href="#up">Topo da página</a>
+                </div>
+            </main>
+        </div>
+    </footer>
+
+    
+    
+    
+   
+
+    <script src="JS/fatorar.js"></script>
+
+</body>
