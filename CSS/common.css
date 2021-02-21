@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+
+
+h4{
+    align-self: start;
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    color: #00c8c8;
+    margin: 0px;
+}
+
+
+p{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.center
+{
+    text-align:center;
+}
+
+input.conf1{
+    width: 10%; 
+    background-color: #333333; 
+    color: #c8c8c8; 
+    position: absolute; 
+    left: 45%;
+}
+
+/* Em telas menores que [1k]*/
+@media screen and (max-width:1000px){
+
+    input.conf1{
+        width: 30%;
+        left: 35%;
+    }
+}
